@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>{{ page.title }} - My homepage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/picnic.min.css">
+    <!--todo customize colors-->
+    <style>
+      nav{
+	  position: relative;
+	  z-index: 9;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/" class="brand">My website</a>
+      <!-- responsive-->
+      <input id="bmenub" type="checkbox" class="show">
+      <label for="bmenub" class="burger pseudo button">menu</label>
+      <div class="menu">
+	<!-- todo icons-->
+	<a href="/about" class="pseudo button">About me</a>
+	<a href="/tech" class="pseudo button">Technology</a>
+	<a href="/life" class="pseudo button">Personal Life</a>
+	<a href="/arts" class="pseudo button">Arts</a>
+	<a href="/thoughts" class="pseudo button icon-puzzle">Thoughts</a>
+      </div>
+    </nav>
+    <div><!--main body-->
